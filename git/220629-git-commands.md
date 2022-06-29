@@ -1,10 +1,10 @@
-#220629 GIT&GIT HUB START
-<!--수평선-->
-##오늘 배운 내용
+# 220629 GIT&GIT HUB START
+
+# 오늘 배운 내용
 - 기본 배경
 - shell, vim command
 - git for window
-- repo 제작부터 push까
+- repo 제작부터 push까지
 
 - shell 
 	-운영체제의 커널과 사용자를 이어주는 소프트웨어 
@@ -34,6 +34,8 @@
  - :q! : 종료(!는 오버라이드)
  - i : insert 모드로 변경
  - o, O : 커서를 밑, 위로 빈 행을 추가하여 입력
+ 
+ - vim을 닫지 않고 종료한다면 이상한 문서(?) 뭔가가 생기는데 그때는 rm 건드린문서.swp 
  
 - git != github 
  	- git : vcs 버전관리시스템
@@ -83,6 +85,15 @@
 	hint: to the same ref. You may want to first integrate the remote changes
 	hint: (e.g., 'git pull ...') before pushing again.
 	hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-
+ -상황 : README.md 파일을 command로 실험(?)해보는 중에 아마 commit을 뭔가를 잘못 입력한 듯 함(코드에 의하면)
+ -원인 : 원격 저장소와 local 저장소가 동기화 되어 있지 않는 상태
+ 	 기존 데이터 손실 우려 때문에 push를 막았다는 것.
+ - 해결방안 
+  	1. 해당 폴더 프로젝트를 삭제하고 다시 생성
+  	2. $git push origin +main( + 이 방법을 실행함)
+  		- 강제로 소스 전체가 push 되어서 기존 데이터 손실 위험이 있음
+  		- 협업 시 다른 분의 소스 코드를 덮어쓸 위험이 있음
+  	3. pull 등 여러 다른 방법이 있었으나 확인 불가, pull을 아직 잘 모름
+  		- 추후 공부 및 만약 같은 오류가 생긴다면  		- 
 # 오늘의 생각
  계속 노력하는 것이 익숙해지는 지름길
