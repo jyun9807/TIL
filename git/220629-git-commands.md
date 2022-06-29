@@ -44,6 +44,7 @@
 	- github : git을 이용한 웹서비스 
 
  **git command**
+
 	- git clon {repo url} 
 	- git status : 상태 확인
 	- git add {filename} : 임시 저장
@@ -51,12 +52,15 @@
 	- git push origin main : 깃허브 등 저장소에 저장
 
  **git commit**
+ 
 	- 최소단위로 자주 동작하도록 할 것
 	- 제목과 내용은 한 줄 공백으로 분리할 것
 	- 제목은 50자 이내, 내용은 문장형으로 자세하게추가 설명
 	- 팀의 작성 방식을 따를 것
 	- commit의 의도와 구성을 충분히 하도록 작성
+	
 - Conventional Commits
+
 	- commit 제목은 하나의 구나 절로 commit을 설명
 	- importance of capitalize
 	- prefix 꼭 달기 
@@ -67,13 +71,16 @@
 		- conf : 환경설정 관련
 		- build : 빌드 관련
 		- ci : Continuous Integration 관련
+		- 
  **git objects**
+ 
 	- blob : 변경사항 (라인 단위)
 	- Tree : blob의 메타데이터 
 
  **git flow**
 
 # 오늘 추가적으로 할 일
+
  **practice(1)**
  	```
 	~/Documents/dev
@@ -126,12 +133,14 @@ console.log(e);
 정리도 잘 하고 블로그 운영도!
 ----
 
-- 일단 해보았다...
+- 일단 해보았다...완료
 	
  **practice(3)**
+ 
  	- repo 해보면서 commit 해보았으니 나중 프로젝트 때 정확하게 작성해보는 걸로 하자 
  
- * error message 확인
+ **error message 확인**
+ 
  	```
  	 ! [rejected]        main -> main (fetch first)
 	error: failed to push some refs to 'https://github.com/jyun9807/first-repo.git'
