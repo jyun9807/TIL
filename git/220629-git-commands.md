@@ -52,7 +52,7 @@
 
 - git commit 
 	- 최소단위로 자주 동작하도록 할 것
-	- 제목과 내용은 한 줄 [[O공백으로 분리할 것
+	- 제목과 내용은 한 줄 공백으로 분리할 것
 	- 제목은 50자 이내, 내용은 문장형으로 자세하게추가 설명
 	- 팀의 작성 방식을 따를 것
 	- commit의 의도와 구성을 충분히 하도록 작성
@@ -85,6 +85,7 @@
 	hint: to the same ref. You may want to first integrate the remote changes
 	hint: (e.g., 'git pull ...') before pushing again.
 	hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+	
  -상황 : README.md 파일을 command로 실험(?)해보는 중에 아마 commit을 뭔가를 잘못 입력한 듯 함(코드에 의하면)
  -원인 : 원격 저장소와 local 저장소가 동기화 되어 있지 않는 상태
  	 기존 데이터 손실 우려 때문에 push를 막았다는 것.
