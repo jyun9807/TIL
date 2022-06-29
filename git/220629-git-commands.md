@@ -1,5 +1,5 @@
 #220629 GIT&GIT HUB START
-
+<!--수평선-->
 ##오늘 배운 내용
 - 기본 배경
 - shell, vim command
@@ -35,26 +35,26 @@
  - i : insert 모드로 변경
  - o, O : 커서를 밑, 위로 빈 행을 추가하여 입력
  
--git != github 
- 	-git : vcs 버전관리시스템
+- git != github 
+ 	- git : vcs 버전관리시스템
 		-빠른 속도, 단순한 구조 
 		-분산형 저장소 지원
-	-github : git을 이용한 웹서비스 
+	- github : git을 이용한 웹서비스 
 
--git command 
-	- git clon {repo url}
-	- git status
-	- git add {filename}
-	- git commit 
-	- git push origin main
+- git command 
+	- git clon {repo url} 
+	- git status : 상태 확인
+	- git add {filename} : 임시 저장
+	- git commit : 임시 저장한 현 상태를 저장(스냅샷)
+	- git push origin main : 깃허브 등 저장소에 저장
 
--git commit 
+- git commit 
 	- 최소단위로 자주 동작하도록 할 것
 	- 제목과 내용은 한 줄 [[O공백으로 분리할 것
 	- 제목은 50자 이내, 내용은 문장형으로 자세하게추가 설명
 	- 팀의 작성 방식을 따를 것
 	- commit의 의도와 구성을 충분히 하도록 작성
--Conventional Commits
+- Conventional Commits
 	- commit제목은 하나의 구나 절로 commit을 설명
 	- importance of capitalize
 	- prefix 꼭 달기 
@@ -65,12 +65,24 @@
 		- conf : 환경설정 관련
 		- build : 빌드 관련
 		- ci : Continuous Integration 관련
--git objects
-	-blob : 변경사항 (라인 단위)
-	-Tree : blob의 메타데이터 
+- git objects
+	- blob : 변경사항 (라인 단위)
+	- Tree : blob의 메타데이터 
 
 -git flow
 
-#오늘 할 일
-practice(1), practice(2), practice(3), error message 확인
-#내일 할 일
+# 오늘 추가적으로 할 일
+ - practice(1)
+ - practice(2)
+ - practice(3) 
+ - error message 확인
+ 	 ! [rejected]        main -> main (fetch first)
+	error: failed to push some refs to 'https://github.com/jyun9807/first-repo.git'
+	hint: Updates were rejected because the remote contains work that you do
+	hint: not have locally. This is usually caused by another repository pushing
+	hint: to the same ref. You may want to first integrate the remote changes
+	hint: (e.g., 'git pull ...') before pushing again.
+	hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+# 오늘의 생각
+ 계속 노력하는 것이 익숙해지는 지름길
