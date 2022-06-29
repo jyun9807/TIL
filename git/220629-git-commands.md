@@ -9,7 +9,7 @@
 - shell 
 	-운영체제의 커널과 사용자를 이어주는 소프트웨어 
 
--shell command
+- shell command
  - pwd : 현재 위치/절대 경로
  - ls : 현재 디렉토리에 위치한 모든  파일 및 디렉토리  확인
  	- ls -a : 숨긴 파일까지 모두 확인
@@ -27,7 +27,7 @@
  - vim : vim 열기
  -* : 전체를 의미
 
--vim command 
+- vim command 
  - ESC : normal 상태/ 명령 모드
  - `:set nu` : 라인 출력
  - :wq : 저장하고 종료
@@ -71,7 +71,7 @@
 	- blob : 변경사항 (라인 단위)
 	- Tree : blob의 메타데이터 
 
--git flow
+- git flow
 
 # 오늘 추가적으로 할 일
  - practice(1)
@@ -90,7 +90,8 @@
   - 루트 디렉토리에서 작업하는 것이 좋다길래 해보았으나 번거로워서 모르겠다 이것을 말한 것이 아닌가? practice 완료
  
  - practice(2)
- 	<!-- 주석을 표기하는 것으로 자기소개라는 것을 알려주기 -->
+ ```
+ <!-- 주석을 표기하는 것으로 자기소개라는 것을 알려주기 -->
 
 ## 간단한 자기소개
 
@@ -118,11 +119,14 @@ console.log(e);
 ***
 정리도 잘 하고 블로그 운영도!
 ----
+```
 	- 일단 해보았다...
 	
  - practice(3)
- - 	- repo 해보면서 commit 해보았으니 나중 프로젝트 때 정확하게 작성해보는 걸로 하자 
+ 	- repo 해보면서 commit 해보았으니 나중 프로젝트 때 정확하게 작성해보는 걸로 하자 
+ 
  - error message 확인
+ 	```
  	 ! [rejected]        main -> main (fetch first)
 	error: failed to push some refs to 'https://github.com/jyun9807/first-repo.git'
 	hint: Updates were rejected because the remote contains work that you do
@@ -130,7 +134,7 @@ console.log(e);
 	hint: to the same ref. You may want to first integrate the remote changes
 	hint: (e.g., 'git pull ...') before pushing again.
 	hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-	
+	```
  -상황 : README.md 파일을 command로 실험(?)해보는 중에 아마 commit을 뭔가를 잘못 입력한 듯 함(코드에 의하면)
  
  -원인 : 원격 저장소와 local 저장소가 동기화 되어 있지 않는 상태
