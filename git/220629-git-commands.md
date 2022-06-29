@@ -36,12 +36,14 @@
  - vim을 닫지 않고 종료한다면 이상한 문서(?) 뭔가가 생기는데 그때는 rm 건드린문서.swp 
  
  **git != github**
+ 
 	- git : vcs 버전관리시스템
 		-빠른 속도, 단순한 구조 
 		-분산형 저장소 지원	
 	- github : git을 이용한 웹서비스 
 
  **git command**
+	
 	- git clon {repo url} 
 	- git status : 상태 확인
 	- git add {filename} : 임시 저장
@@ -49,6 +51,7 @@
 	- git push origin main : 깃허브 등 저장소에 저장
 
  **git commit**
+	
 	- 최소단위로 자주 동작하도록 할 것
 	- 제목과 내용은 한 줄 공백으로 분리할 것
 	- 제목은 50자 이내, 내용은 문장형으로 자세하게추가 설명
@@ -56,6 +59,7 @@
 	- commit의 의도와 구성을 충분히 하도록 작성
 	
 - Conventional Commits
+	
 	- commit 제목은 하나의 구나 절로 commit을 설명
 	- importance of capitalize
 	- prefix 꼭 달기 
@@ -68,11 +72,12 @@
 		- ci : Continuous Integration 관련
 		- 
  **git objects**
+	
 	- blob : 변경사항 (라인 단위)
 	- Tree : blob의 메타데이터 
 
  **git flow**
-
+***
 # 오늘 추가적으로 할 일
 
  **practice(1)**
@@ -129,7 +134,7 @@ console.log(e);
 ----
 
 - 일단 해보았다...완료
-	
+---	
  **practice(3)**
  
  	- repo 해보면서 commit 해보았으니 나중 프로젝트 때 정확하게 작성해보는 걸로 하자 
@@ -157,11 +162,11 @@ console.log(e);
   		- 협업 시 다른 분의 소스 코드를 덮어쓸 위험이 있음
   	3. pull 등 여러 다른 방법이 있었으나 확인 불가, pull을 아직 잘 모름
   		- 추후 공부 및 만약 같은 오류가 생긴다면  
-  		
+  ---		
   **오늘 아쉬운 점/이상한 점**
   
 	- github 내에 token을 생성했으나 제시된 페이지를 찾을 수 없었고 따로 검색해야했다. 결국 사용할 일이 없었음 (찾아보자..)
 	- 빠르게 강의 내용을 정리하고 작성해보도록 노력이 더 필요함
-	 
+--- 
 # 오늘의 생각
  계속 노력하는 것이 익숙해지는 지름길
