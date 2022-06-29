@@ -9,7 +9,7 @@
 - shell 
 	-운영체제의 커널과 사용자를 이어주는 소프트웨어 
 ***
-- shell command
+*shell command*
  - pwd : 현재 위치/절대 경로
  - ls : 현재 디렉토리에 위치한 모든  파일 및 디렉토리  확인
  	- ls -a : 숨긴 파일까지 모두 확인
@@ -27,7 +27,7 @@
  - vim : vim 열기
  -* : 전체를 의미
 
-- vim command 
+ *vim command* 
  - ESC : normal 상태/ 명령 모드
  - `:set nu` : 라인 출력
  - :wq : 저장하고 종료
@@ -37,20 +37,20 @@
  
  - vim을 닫지 않고 종료한다면 이상한 문서(?) 뭔가가 생기는데 그때는 rm 건드린문서.swp 
  
-- git != github 
+ *git != github* 
 	- git : vcs 버전관리시스템
 		-빠른 속도, 단순한 구조 
 		-분산형 저장소 지원
 	- github : git을 이용한 웹서비스 
 
-- git command 
+ *git command*
 	- git clon {repo url} 
 	- git status : 상태 확인
 	- git add {filename} : 임시 저장
 	- git commit : 임시 저장한 현 상태를 저장(스냅샷)
 	- git push origin main : 깃허브 등 저장소에 저장
 
-- git commit 
+ *git commit* 
 	- 최소단위로 자주 동작하도록 할 것
 	- 제목과 내용은 한 줄 공백으로 분리할 것
 	- 제목은 50자 이내, 내용은 문장형으로 자세하게추가 설명
@@ -67,14 +67,14 @@
 		- conf : 환경설정 관련
 		- build : 빌드 관련
 		- ci : Continuous Integration 관련
-- git objects
+ *git objects*
 	- blob : 변경사항 (라인 단위)
 	- Tree : blob의 메타데이터 
 
-- git flow
+ * git flow
 
 # 오늘 추가적으로 할 일
- - practice(1)
+ * practice(1)
  	```
 	~/Documents/dev
 	 -cli-practice/
@@ -91,7 +91,7 @@
  
  ---
  
- - practice(2)
+ * practice(2)
  
  
  <!-- 주석을 표기하는 것으로 자기소개라는 것을 알려주기 -->
@@ -105,15 +105,15 @@
 * 성별 : 표기하기 싫음
 + 그냥 마크업 여러 개 써보는 중
 
-*자기소개*
+*자기소개 별 강조*
 
-**자기소개 강조 중**
+**자기소개 별별 강조 중**
 
 ~물결 강조~
 
-_강조 강조_
+_언더바 강조_
 
->인용하는 거니까 음 '너 자신을 알라'
+>인용하는 거니까 음  > '너 자신을 알라'
 
 js로 code 강조 `console.log(hello)` 실험
 
@@ -128,10 +128,10 @@ console.log(e);
 
 - 일단 해보았다...
 	
- - practice(3)
+ * practice(3)
  	- repo 해보면서 commit 해보았으니 나중 프로젝트 때 정확하게 작성해보는 걸로 하자 
  
- - error message 확인
+ * error message 확인
  	```
  	 ! [rejected]        main -> main (fetch first)
 	error: failed to push some refs to 'https://github.com/jyun9807/first-repo.git'
