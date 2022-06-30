@@ -5,21 +5,21 @@
 - hexo를 이용해 github blog 운영해보기
 
 ----
-####README.md
+#### README.md
 - 프로젝트와 repository를 나타내는 메인 문서
 - 이 프로젝트를 얼마나 잘 이해하고 수행했는지 결과물은 어떤지 보여주는 문서
 
 **기본적인 5가지 정보**
 1. Projet Name
-- 프로젝트를 설명하는 한 줄 요약을 꼭 적기
-- 프로젝트의 데모나 샘플 링크를 남기는 것도 좋다!
+	- 프로젝트를 설명하는 한 줄 요약을 꼭 적기
+	- 프로젝트의 데모나 샘플 링크를 남기는 것도 좋다!
 2. Documents
-- installation
-- supported versions
+	- installation
+	- supported versions
 3. More information 
-- 참조 언어나 라이브러리 공식 페이지 혹은 책 등 참조한 문서를 기재
+	- 참조 언어나 라이브러리 공식 페이지 혹은 책 등 참조한 문서를 기재
 4. Contributing 
-- 오픈소스 프로젝트일 경우 참조할 내용이나 문서를 명시
+	- 오픈소스 프로젝트일 경우 참조할 내용이나 문서를 명시
 5. License
 - 책임을 위한 것
 - 프로젝트는 하나의 링센스만을 가짐
@@ -28,7 +28,7 @@
 	- Apache license 2.0 : 특허권 내용이 포함되어 있음 자유롭게 써도 되지만 꼭 명시해야함! (기타 구체적 내용은 확인 필요)
 	- GNU(general public license v3.0) : GPL 라이센스를 갖는 순간 무조건 이 규칙을 따라야함! 
 
-####gitignore
+#### gitignore
 - os idle 언어 라이브러리 등 저장소에 올리지 않을 것들을 list 하기 위한 것
 - 임시 파일나 보안 상 중요한 것들을 선별한다.
 - [gitignore 작성](https://www.toptal.com/developers/gitignore)
@@ -38,11 +38,11 @@ server.* //server라는 이름의 파일을 필터
 secret/** //secret 폴더를 필터
 ```
 
-####hexo
+#### hexo
 - hexo는 Node.js 기반 정적인 블로그 생성기이다 
 - node와 npm이 설치되어 있어야지 작동 가능하다
 
-#####hexo 블로그 만들어보기
+##### hexo 블로그 만들어보기
 1. 초기 페이지를 작성해보자.
 ```
 <!doctype html>
