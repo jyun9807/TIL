@@ -78,6 +78,7 @@ type: git
 repo : <repo url>
 branch : [branch]
 ```
+```
   // 새 포스트 파일 만들기
 $ hexo new post "post"
   // vim 으로 작업하기
@@ -100,6 +101,7 @@ $ hexo clean && hexo deploy
 	- {username}.github.io
 
 **오늘의 시련(?)**
+
 - node.js 설치 중 2502, 2503 설치 에러 발생
 	- 관리자 권한 문제라는데 cmd를 권리자 권한으로 실행 후 설치 (해결)
 - zoom 강의 도중 시스템 리소스 부족이나 인터넷 문제로 튕김
