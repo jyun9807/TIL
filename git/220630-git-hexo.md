@@ -40,10 +40,10 @@ secret/** //secret 폴더를 필터
 
 ####hexo
 - hexo는 Node.js 기반 정적인 블로그 생성기이다 
-- node와 npm이 설치되어 있어야지 작동 가능하다
+- npm이 설치되어 있어야지 작동 가능하다
 
 #####hexo 블로그 만들어보기
-1. 초기 페이지를 작성해보자.
+1.git repository에 초기 페이지를 작성해보자.
 ```
 <!doctype html>
 <html>
@@ -55,7 +55,7 @@ secret/** //secret 폴더를 필터
    <div id="main-wrapper">
     <h1>Home</h1>
     <p>This is home.</p>
-    <a href="https://github.com/kingwangzzang1234/kingwangzzang1234.github.io">Visit this repository</a>
+    <a href="https://github.com/jyun9807/jyun9807.github.io">Visit this repository</a>
    </div>
   </body>
 </html>
@@ -66,13 +66,22 @@ secret/** //secret 폴더를 필터
 $ npm install -g hexo-cli
 ```
 ```
+#setup
+
 $ hexo init <folder>
 $ cd <folder>
-$ npm install
 ```
 - _config.yml 파일을 확인할 수 있다.
-- 위 파일의 deploy 수정 (주의 형식이 틀리면 deploy가 되지 않음)
+- 주의 yml은 형식이 틀리면 error)
 ```
+#site
+title: 수정
+autho: -
+
+#url
+url : 깃허브 주소(https, 마지막에 /  붙이지 않기)
+
+#Deployment
 deploy:
 type: git
 repo : <repo url>
@@ -92,12 +101,13 @@ $ hexo clean && hexo deploy
 
 - 테마 변경
 [thema](https://hexo.io/themes/)
+  - yml 파일 #extensions theme: 변경할 테마명으로 변
 
 - hexo 추가 정보를 위한 공식 page
 [hexo](https://hexo.io/ko/)
 
 - 이렇게 업로드 되는 github bloh 주소
-	- {username}.github.io
+	- {username}.github.io경
 
 **오늘의 시련(?)**
 - node.js 설치 중 2502, 2503 설치 에러 발생
