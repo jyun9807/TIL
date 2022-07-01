@@ -42,13 +42,10 @@ secret/** //secret 폴더를 필터
 - hexo는 Node.js 기반 정적인 블로그 생성기이다 
 - npm이 설치되어 있어야지 작동 가능하다
 
-<<<<<<< HEAD
+
 #####hexo 블로그 만들어보기
 1.git repository에 초기 페이지를 작성해보자.
-=======
-##### hexo 블로그 만들어보기
-1. 초기 페이지를 작성해보자.
->>>>>>> ac4239817af6b61845e01c5c17a1e857507971fe
+
 ```
 <!doctype html>
 <html>
@@ -80,17 +77,17 @@ $ cd <folder>
 - 주의 yml은 형식이 틀리면 error)
 ```
 #site
-title: 수정
-autho: -
+  title: 수정
+  autho: -
 
 #url
 url : 깃허브 주소(https, 마지막에 /  붙이지 않기)
 
 #Deployment
 deploy:
-type: git
-repo : <repo url>
-branch : [branch]
+  type: git
+  repo : <repo url>
+  branch : [branch]
 ```
 ```
   // 새 포스트 파일 만들기
@@ -107,13 +104,16 @@ $ hexo clean && hexo deploy
 
 - 테마 변경
 [thema](https://hexo.io/themes/)
-  - yml 파일 #extensions theme: 변경할 테마명으로 변
-
+  - yml 파일 
+```
+  #extensions
+    theme: 변경할 테마명으로 변경
+```
 - hexo 추가 정보를 위한 공식 page
 [hexo](https://hexo.io/ko/)
 
 - 이렇게 업로드 되는 github bloh 주소
-	- {username}.github.io경
+	- {username}.github.io
 
 **오늘의 시련(?)**
 
