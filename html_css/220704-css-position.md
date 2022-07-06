@@ -78,7 +78,7 @@ justify-content: center;
  - vw : 뷰포트 가로 너비의 백분율
  - vh : 뷰포트 세로 너비의 
 
-####색상 표현
+#### 색상 표현
 
  - 색상 이름 : 브라우저에서 제공하는 색상 이름
  - hex 색상코드 : 16진수 색상(hexadecimal colors) #000,#fffff
@@ -87,26 +87,26 @@ justify-content: center;
 
 ----
 
-####box-sizing
+#### box-sizing
 요소의 크기 계산 기준을 지정
  - border-box : 요소의 내용 padding border 크기로 계산    
  - content-box : 내용으로 크기 계산
 
-####overflow
+#### overflow
 요소의 크기 이상으로 내용이 넘쳤을 때 보여짐을 제어하는 단축 속성
  - visible: 넘친 내용을 그대로 보여줌
  - hidden: 넘친 내용을 잘라냄
  - auto: 넘친 내용이 있는 경우에만 잘라내고 스크롤바 생성
 
-####display 요소의 화면 출력(보여짐) 특징
+#### display 요소의 화면 출력(보여짐) 특징
  - block 상자 요소
  - inline  글자 요소
  - inline-block 글자 + 상자 요소
 
-####opacity 
+#### opacity 
 요소의 투명도 1 불투명 0 투명
 
-####글꼴 
+#### 글꼴 
  - line-height :  숫자 요소의 글꼴 ㅋ기의 배수로 지정
  - serif : 바탕체 계열
  - sans-serif  :고딕쳋 계열
@@ -114,7 +114,7 @@ justify-content: center;
  - cursive : 필기체 계열 
  - fantasy : 장식 글꼴 계열
 
-####요소 쌓임 순서(stack order)
+#### 요소 쌓임 순서(stack order)
 어떤 요소가 사용자와 더 가깝게 있는지 (위에 쌓이는지 ) 결정
 
 1. 요소에 position 속성 값이 있는 경우 위에 쌓임 static 제외
