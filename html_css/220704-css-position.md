@@ -1,8 +1,8 @@
 # 220704 CSS 배치
 
-##오늘 배운 것
+## 오늘 배운 것
 
-###Margin & Padding
+### Margin & Padding
 
  - margin : 테두리 외부 여백
  - padding : 테두리 내부의 여백
