@@ -25,7 +25,9 @@ HTML,CSS,JS를 사용해서 데이터를  사용자 인터페이스로 변환한
 	- em, i 태그 : 글자 기울이기 (em : 강조하고 싶을 때)
 	- hr 태그 : 가로줄 표시, 주세가 분리될 때 확실하게 강조하기 위해서 사용
 	- br 태그 : 줄바꿈을 위한 태그
-####심화 태그
+
+#### 심화 태그
+
 - a 태그 : 하이퍼링크, href에 주소를 명시해야함
 - img태그 : src에 이미지 파일명이나 주소를 명시 
 - input태그 : 사용자로부터 글자 등을 입력받기 위해 사용하는 태그
@@ -44,16 +46,16 @@ HTML,CSS,JS를 사용해서 데이터를  사용자 인터페이스로 변환한
 3. 개발자 간 명확한 의사 전달
 
 - HTML 문서를 작성할 때 추천하는 전체적인 구조
-`header 태그` : 사이트 제목 표시
-`nav 태그` : 사이트 메뉴 표시
-`main 태그` : 사이트 본문 표시
-`section 태그` :사이트 특정 부분 제목 표시
-`article 태그` : 세부 주요 글표시
-`aside 태그` : 보조적인 글 표시
-`footer 태그` : 관련 출처 등의 정보 표시
 
-![구조](/uploads/1848994ad25765da30fa8ef3/uploads/1848994ad25765da30fa8ef3684c67bc/캡처.PNG684c67bc/캡처.PNG)
+  - `header 태그` : 사이트 제목 표시
+  - `nav 태그` : 사이트 메뉴 표시
+  - `main 태그` : 사이트 본문 표시
+  - `section 태그` :사이트 특정 부분 제목 표시
+  - `article 태그` : 세부 주요 글표시
+  - `aside 태그` : 보조적인 글 표시
+  - `footer 태그` : 관련 출처 등의 정보 표시
 
+<img width="240" alt="sementictag" src="https://user-images.githubusercontent.com/91234001/177723612-245ee71d-4650-4ebb-a06b-59005b6512d0.png">
 
 ## css
 - Cascading Style Sheets
@@ -91,7 +93,8 @@ css를 어디에 적용할 지 명시해주는 것
   - style, width, color. radius
 - margin, padding
 
-![box-model](img width="240" alt="box_model" src="https://user-images.githubusercontent.com/91234001/176929357-eb6577b1-5522-45bd-b450-dfde864b249f.png")
+<img width="240" alt="box_model" src="https://user-images.githubusercontent.com/91234001/177723396-2f819aa5-057d-4096-87c5-aa424fa067f1.png">
+
 
   - margin: 요소의 border 기준으로 외부에 여백을 지정
   - padding: 요소의 border 기준으로 내부에 여백을 지정
