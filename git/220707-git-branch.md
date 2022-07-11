@@ -34,7 +34,7 @@ git pull origin main
 //원래 두 가지 일을 하다 버전 업 후 분리
 - git checkout
     - git switch 
-    - git restore
+    - git remote
 
 Pull : 따로 생성한 branch에서 작업한 것을 main branch로 보내는 것
 
@@ -102,6 +102,8 @@ git push --tags
 
 풀 리퀘스트 요청 시 :
 develop인지 확인 후 요청
+
+- `-u` : main인 현재 브랜치를 자동으로 origin이라는 원격 저장소의 main 브랜치로 연결하여 원격 저장소와 로컬 저장소를 자동 연결하여 사용할 수 있도록 한다. 
 
 ## 오늘의 생각
 직접 만들어보는 게 더 이해하기 좋다. 
